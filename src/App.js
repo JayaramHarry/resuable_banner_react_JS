@@ -28,7 +28,7 @@ const App = () => (
   <div className="app-container">
     <ul className="banner-card_list">
       {bannerCardsList.map(eachItem => (
-        <BannerCardItem bannerCard={eachItem} key={eachItem.key} />
+        <BannerCardItem bannerCard={eachItem} key={eachItem.id} />
       ))}
     </ul>
   </div>
